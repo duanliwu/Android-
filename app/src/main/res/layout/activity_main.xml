@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xiaoxiaoduan.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <!--<ImageView-->
+            <!--android:src=-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--/>-->
+        <Button android:id="@+id/Button0"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="确定取消消息框"
+            />
+        <Button android:id="@+id/Button1"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="多个按钮消息框"
+            />
+        <Button android:id="@+id/Button2"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="列表框"
+            />
+        <Button android:id="@+id/Button3"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="进度条框"
+            />
+        <Button android:id="@+id/Button4"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="单项选择列表框"
+            />
+        <Button android:id="@+id/Button5"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="多项列表选择框"
+            />
+        <Button android:id="@+id/Button6"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="自定义布局"
+            />
+        <Button android:id="@+id/Button7"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="读取进度框"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
